@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+  background: linear-gradient(to right, #004134, #036F49);
+  padding: 10px 20px;
+}
+
+.logo {
+  filter: brightness(0) invert(1); 
+}
+
+
+.navbar div {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin-right: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.navLink:hover {
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.searchInput {
+  margin-left: 20px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
