@@ -7,6 +7,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 // Components
 import NavBar from './components/NavBar';
 import Footer from "./components/Footer";
+import SecondNav from './components/SecondNav';
 
 export const metadata: Metadata = {
   title: "Frederico Westphalen | Guia",
@@ -24,6 +25,7 @@ export default function RootLayout({
         <header>
           <NavBar />
         </header>
+        <SecondNav />
         <main className="pt-5">
           {children}
         </main>

@@ -1,3 +1,7 @@
+preciso de um componente para a page.tsx home do meu site. Ela vai ter (4 cards alinhados + 4 cards embaixo, um card da largura dos 4 cards com a mesma altura , so que dentro vai ter 6 cards redondos)
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
