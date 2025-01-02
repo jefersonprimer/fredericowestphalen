@@ -19,3 +19,11 @@
   margin: 0;
   font-family: Arial;
 }
+
+/* styles/globals.css (ou outro arquivo global de CSS no seu projeto) */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, red 1%, gray 99%);
+  min-height: 100vh;
+}

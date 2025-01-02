@@ -14,39 +14,38 @@ export default function Footer() {
           <div className="col-md-3 mb-3">
             <h5>Conheça-nos</h5>
             <ul className="list-unstyled">
-              <li><Link href="/" className="text-light">Carreiras</Link></li>
-              <li><Link href="/about" className="text-light">Blog</Link></li>
-              <li><Link href="/commerces" className="text-light">Sobre a PrimerLabs</Link></li>
-              <li><Link href="/contact" className="text-light">Relação do investidor</Link></li>
-              <li><Link href="/blog" className="text-light">Dispositivos PrimerLabs</Link></li>
-              <li><Link href="/blog" className="text-light">PrimerLabs Science</Link></li>
+              <li><Link href="/" className={`text-light no-underline`}>Carreiras</Link></li>
+              <li><Link href="/about" className={`text-light no-underline`}>Blog</Link></li>
+              <li><Link href="/commerces" className={`text-light no-underline`}>Sobre a PrimerLabs</Link></li>
+              <li><Link href="/contact" className={`text-light no-underline`}>Relação do investidor</Link></li>
+              <li><Link href="/blog" className={`text-light no-underline`}>Dispositivos PrimerLabs</Link></li>
+              <li><Link href="/blog" className={`text-light no-underline`}>PrimerLabs Science</Link></li>
             </ul>
           </div>
-
           <div className="col-md-3 mb-3">
             <h5>Ganhe dinheiro conosco</h5>
             <ul className="list-unstyled">
-              <li><Link href="/" className="text-light">Carreiras</Link></li>
-              <li><Link href="/about" className="text-light">Blog</Link></li>
-              <li><Link href="/commerces" className="text-light">Sobre a PrimerLabs</Link></li>
+              <li><Link href="/" className={`text-light no-underline`}>Carreiras</Link></li>
+              <li><Link href="/about" className={`text-light no-underline`}>Blog</Link></li>
+              <li><Link href="/commerces" className={`text-light no-underline`}>Sobre a PrimerLabs</Link></li>
             </ul>
           </div>
 
           <div className="col-md-3 mb-3">
             <h5>Formas de pagamento</h5>
             <ul className="list-unstyled">
-              <li><Link href="/" className="text-light">Carreiras</Link></li>
-              <li><Link href="/about" className="text-light">Blog</Link></li>
-              <li><Link href="/commerces" className="text-light">Sobre a PrimerLabs</Link></li>
+              <li><Link href="/" className={`text-light no-underline`}>Carreiras</Link></li>
+              <li><Link href="/about" className={`text-light no-underline`}>Blog</Link></li>
+              <li><Link href="/commerces" className={`text-light no-underline`}>Sobre a PrimerLabs</Link></li>
             </ul>
           </div>
 
           <div className="col-md-3 mb-3">
             <h5>Deixe-nos ajudar você</h5>
             <ul className="list-unstyled">
-              <li><Link href="/" className="text-light">Carreiras</Link></li>
-              <li><Link href="/about" className="text-light">Blog</Link></li>
-              <li><Link href="/commerces" className="text-light">Sobre a PrimerLabs</Link></li>
+              <li><Link href="/" className={`text-light no-underline`}>Carreiras</Link></li>
+              <li><Link href="/about" className={`text-light no-underline`}>Blog</Link></li>
+              <li><Link href="/commerces" className={`text-light no-underline`}>Sobre a PrimerLabs</Link></li>
             </ul>
           </div>
         </div>
@@ -75,7 +74,7 @@ export default function Footer() {
 
         <div className="d-flex justify-content-between align-items-center my-4">
           <div>
-          <p><Link href="#">Condições de uso</Link></p>
+          <p><Link href="#" className={`text-light no-underline`}>Condições de uso</Link></p>
           </div>
           <div>
           <p>Notificação de Privacidade</p>

@@ -18,7 +18,7 @@ export default function Card({
           src={imageSrc}
           alt={altText || 'Imagem do Card'}
           width={400} 
-          height={200} 
+          height={400} 
           className="rounded-t-lg mb-4"
         />
       )}

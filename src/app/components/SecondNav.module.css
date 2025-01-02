@@ -1,34 +1,25 @@
 /* components/SecondNav.module.css */
 .secondNav {
-  background-color: #f3f3f3;
-  padding: 10px 20px;
-  border-bottom: 1px solid #ddd;
+  padding: 10px 20px; /* Espaçamento à esquerda e direita para alinhamento */
+  background-color: #004134; 
 }
 
 .navList {
   list-style: none;
   display: flex;
-  gap: 20px;
+  justify-content: flex-start; /* Alinha os links à esquerda */
+  gap: 20px; /* Espaçamento entre os links */
   margin: 0;
   padding: 0;
-  overflow-x: auto;
 }
 
-.navItem {
-  white-space: nowrap;
-}
-
-.navLink {
-  text-decoration: none;
+.navItem a {
+  text-decoration: none; /* Remove o sublinhado */
   font-size: 14px;
-  color: #007185;
-  transition: color 0.3s ease;
+  color: #FFF; /* Cor azul escuro */
+  padding: 10px 5px;
 }
 
-.navLink:hover {
-  color: #c7511f;
-}
-
-.navLink:active {
-  color: #ff9900;
+.navItem a:hover {
+  outline: 1px solid white; 
 }

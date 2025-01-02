@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 import SecondNav from './components/SecondNav';
 
 export const metadata: Metadata = {
-  title: "Frederico Westphalen | Guia",
+  title: "Frederico Westphalen | Guia da Cidade",
   description: "idk",
 };
 

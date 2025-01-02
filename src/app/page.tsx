@@ -8,7 +8,7 @@ export default function Home() {
     Array.from({ length }).map((_, idx) => (
       <div
         key={`card-${start + idx}`}
-        className="bg-gray-200 rounded-lg h-40 flex flex-col items-center justify-center shadow-md"
+        className="bg-gray-200 rounded-lg w-[335px] h-[400px] flex flex-col items-center justify-center shadow-md"
       >
         <img
           src={`https://via.placeholder.com/200x100?text=Card+${start + idx}`}
@@ -69,7 +69,7 @@ export default function Home() {
       <CardGrid items={renderGridCards(5, 4)} columns={4} />
       
       {/* Card Grande com Círculos */}
-      <Card>
+      <Card className="mt-6">
         <div className="text-center mb-4">Card Grande com Círculos</div>
         <CardGrid
           items={Array.from({ length: 6 }).map((_, idx) => (

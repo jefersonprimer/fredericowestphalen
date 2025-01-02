@@ -2,20 +2,23 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Logo from '../../../public/logo.png';
 import styles from './NavBar.module.css';
+import '../page';
 
 export default function NavBar() {
   return (
     <nav className={styles.navbar}>
       <div>
         <div>
-          <Image
-            src={Logo}
-            alt="Logo do site"
-            width={200}
-            height={200}
-            priority={true}
-            className={styles.logo}
-          />
+          <Link href="/" className={styles.navLink}>
+            <Image
+              src={Logo}
+              alt="Logo do site"
+              width={300}
+              height={300}
+              priority={true}
+              className={styles.logo}
+            />
+          </Link>
         </div>
         <div className="input-group">
           <input
@@ -23,7 +26,7 @@ export default function NavBar() {
             type="text"
             placeholder="Pesquisar..."
           />
-          <button className="btn btn-outline-secondary" type="button">
+          <button className={`btn ${styles.searchButton}`} type="button">
             <i className="bi bi-search"></i> 
           </button>
         </div>
